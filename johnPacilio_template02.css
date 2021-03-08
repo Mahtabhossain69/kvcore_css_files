@@ -3714,7 +3714,7 @@ body {
 		border: 2px solid transparent;
 	}
 	.hvr-shutter-out-vertical:before {
-		background: #000000c2;
+		background: #000000c2 !important;
 		border: 2px solid #fff;
 		margin: 5px;
 	}
@@ -4718,43 +4718,6 @@ body {
 			padding: 20px 25px 20px 25px;
 		}
 	}
-	/* ---- SAMPLE 1 ---- */
-	.txt-overlay {
-		height: 300px;
-		width: 100%;
-		background-position: center!important;
-		background-size: cover!important;
-		background-repeat: no-repeat!important;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		text-decoration: none;
-	}
-	a.txt-overlay {
-		text-decoration: none;
-		text-transform: capitalize;
-	}
-	.txt-overlay .txt-holder {
-		background: #000000c2;
-		padding: 5px;
-		margin: 5px;
-		border: 2px solid #fff;
-		padding-top: 15px;
-
-	}
-	.txt-overlay:hover .txt-holder {
-		background: transparent;
-		border: 2px solid transparent;
-	}
-	.hvr-shutter-out-vertical:before {
-		background: #000000c2;
-		border: 2px solid #fff;
-		margin: 5px;
-	}
-	
-
-	
 
 	/* --------------SAMPLE 2-------------------- */
 	.flip-card {
