@@ -1,0 +1,471 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+}
+
+/* FEATURED AREAS START */
+.featured-area {
+    background-color: #1a1d1f;
+}
+
+.subtitle {
+    font-size: 15px;
+    line-height: 1.2em;
+    color: #00c0ff;
+    font-weight: 700;
+    top: -4px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.title-black {
+    font-size: 34px;
+    line-height: 1.2em;
+    color: #1a1d1f;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.area {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 8vw);
+    grid-gap: 15px;
+}
+
+.area__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.area__item {
+    position: relative;
+}
+
+.area__item::after {
+    content: '';
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    transition: all 0.5s ease-out;
+    background: linear-gradient(-45deg, transparent, #00C0FF);
+} 
+
+.area__item:hover::after {
+    display: block;
+    cursor: pointer;
+}
+
+.area__item:hover .view-all {
+    opacity: 1;
+}
+
+.area__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.area__item--2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.area__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.area__item--4 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.area__item--5 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.area__item--6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.area__item--7 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.area__item--8 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.textBoxTest {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.info-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5% 0% 0% 6%;
+}
+
+.info-box:hover {
+    cursor: pointer;
+}
+
+.category {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: "Raleway", sans-serif;
+}
+
+.place {
+    position: relative;
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.place a {
+	display: inline-block;
+	color: #ffffff;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.place a:hover {
+	color: #222222;
+    text-decoration: none;
+}
+
+.view-all {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 72%;
+    left: 73%;
+    text-align: center;
+}
+
+.view-all-text {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* FEATURED AREAS END */
+
+/* BIO AREA START */
+.agent-container {
+    
+}
+
+.agent-box:hover .agent-name {
+    color: #222222;
+}
+
+.agent-box:hover .social-links {
+    display: block;
+}
+
+
+.agent-image-box {
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.agent-image {
+    position: relative;
+    margin: 0;
+}
+
+.agent-image::before {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #00c0ff;
+    content: "";
+    z-index: -1;
+}
+
+.agent-info {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.agent-name {
+    font-size: 20px;
+    line-height: 30px;
+    color: #00c0ff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.joint {
+    font-size: 20px;
+    line-height: 30px;
+    color: #00c0ff;
+    font-weight: 700;
+}
+
+.agent-designation {
+    font-size: 14px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 400;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.social-links {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 65px;
+    overflow: hidden;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.singleIcon {
+    color: #1a1d1f;
+}
+
+.singleIcon:hover {
+    color: #00c0ff !important;
+}
+
+.review-box {
+    display: flex;
+    padding-top: 5%;
+}
+
+.review-text-black {
+    font-size: 24px;
+    line-height: 44px;
+    color: #18181b;
+    font-weight: 500;
+}
+/* BIO AREA END */
+
+/* ABOUT US AREA START */
+.about-us-area {
+    background-color: #1a1d1f;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 1.2;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    
+}
+
+.blue-divider {
+    width: 60px;
+    height: 3px;
+    background-color: #00c0ff;
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.about-details {
+    font-weight: 400;
+    font-family: 'ralewayregular';
+    font-size: 16px;
+    color: #aaa;
+}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+.readMoreButton {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 3% 9% 3% 9%;
+	font-size: 19px;
+	color: #ffffff;
+	text-decoration: none !important;
+	outline: none !important;
+    transition: all 0.7s ease-out;
+	background-color: #363635;
+	border-radius: 2px;
+}
+
+.readMoreButton:hover {
+    background-color: #00c0ff;
+}
+
+.about-listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #363635;
+    border-radius: 24px 0px 0px 24px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.circle-counter {
+    background-color: #00c0ff;
+    color: #ffffff;
+    width: 56px; 
+    height: 56px;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.cutout-box {
+    padding: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* ABOUT US AREA END */
+
+/* Testimonial Carousal Area Start */
+.testimonial-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #0e1216, #222c34);
+}
+
+.checkedStar {
+	color: #2499ed;
+}
+
+.review-text {
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.4;
+	font-family: "Playfair Display",Georgia,serif;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+	font-style: italic;
+}
+
+.reviewer {
+	font-size: 1rem;
+	line-height: 1.4;
+	font-family: "Playfair Display",Georgia,serif;
+	color: #2499ed;
+	opacity: 0.8;
+	text-align: center;
+	font-style: italic;
+}
+/* Testimonial Carousal Area End */
+
+/* Owl Carousal CSS Start */
+.owl-carousel .card {
+	border-radius: 10px;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.owl-dots {
+	text-align: center;
+}
+
+.owl-dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin: 0 5px;
+	border: 2px solid #0072bc!important;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+	transition: all 0.5s ease;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+	background: #0072bc!important;
+}
+/* Owl Carousal CSS End */
+
+/* VIDEO AREA START */
+.video-area {
+    background: #151515;
+    background-size: auto;
+	background-size: cover;
+}
+
+.videoFrame {
+    width: 75vw;
+    height: calc(75vw/2.0);
+}
+/* VIDEO AREA END */
