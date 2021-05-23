@@ -408,6 +408,10 @@ body {
 /* BIO AREA END */
 
 /* Testimonial Carousal Area Start */
+.testimonial-section {
+    background-color: #FFFFFF;
+}
+
 .testimonial-container {
 	display: flex;
 	flex-direction: column;
