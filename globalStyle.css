@@ -2979,19 +2979,16 @@
 		}
 		
 		.img-bg2 {
-			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e71ec115174981.6050bc924e370.jpg0');
+			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e71ec115174981.6050bc924e370.jpg');
 			background-size: cover;
 		}
 		
 		.img-bg3 {
-			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/07dc1d115174981.60c7822572520.jpg');
+			background-image: url('https://cdn.hipwallpaper.com/m/7/55/7Hcbiq.jpg');
 			background-size: cover;
 		}
 
-               .img-bg20 {
-			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/07dc1d115174981.60c7822572520.jpg');
-			background-size: cover;
-		}
+              
 		.silver-90 {
 			background:
 				-moz-linear-gradient(
