@@ -2979,14 +2979,16 @@
 		}
 		
 		.img-bg2 {
-			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e71ec115174981.6050bc924e370.jpg0');
+			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e71ec115174981.6050bc924e370.jpg');
 			background-size: cover;
 		}
 		
 		.img-bg3 {
-			background-image: url('https://drive.google.com/uc?id=1c7nhfptKaIHrJV0qlLp_ziSSvGBZ3OGF');
+			background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/ce5a53115174981.604931c1483ec.jpg');
 			background-size: cover;
 		}
+
+              
 		.silver-90 {
 			background:
 				-moz-linear-gradient(
